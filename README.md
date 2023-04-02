@@ -33,7 +33,7 @@ EmailJs -> For sending emails to users.
 
 ### 3. Available cabs
 ###### In this page User will be shown the source and destination point and the Ideal time that is the shortest distance between the two points.
-Also 5 different cabs with different pricing and different arriving timw will be shown.
+###### Also 5 different cabs with different pricing and different arriving time will be shown.
 ![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20015650.jpg?raw=true)
 
 ### 4. Book Now Button
