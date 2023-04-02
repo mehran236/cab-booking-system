@@ -1,70 +1,72 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Cab Booking System
+### Link: https://cab-booking2.onrender.com/
+### CU x Scaler | SDE Internship Assignment | Md Mehran Akhtar | 20BCS7123 | mehran.akhtar88@gmail.com
+## Authors
 
-## Available Scripts
+- [@Mehran Akhtar](https://www.github.com/mehran236)
 
-In the project directory, you can run:
+This project is a cab booking web application built using React and Tailwind CSS. The aim of the project is to provide a platform for users to book a cab from a source location to a destination location while being able to select from a variety of cabs with different pricing options. The application calculates the shortest possible time and the estimated cost of the ride based on the cab selected and the distance between the source and destination. The web application also allows for the tracking of cab bookings, and users can view and edit the available cabs and their pricing. The application is designed to be responsive and user-friendly, making it easy for users to navigate and book their rides. The project has been developed with modularity and code quality in mind, ensuring that the application is easy to maintain and update in the future.
 
-### `npm start`
+## Frontend
+* React
+* Java Script
+* Tailwind
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Backend
+* Mongo-Db
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployed On:
+Render
+## API Used
+EmailJs -> For sending emails to users.
 
-### `npm test`
+# Screenshots:
+### 1. Home Page
+![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20015413.png?raw=true)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Search Cab
+###### If user has choosen a particular Source then that choosen location will not visible in Destination.
+![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20015503.jpg?raw=true)
 
-### `npm run build`
+![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20015551.jpg?raw=true)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Available cabs
+###### In this page User will be shown the source and destination point and the Ideal time that is the shortest distance between the two points.
+Also 5 different cabs with different pricing and different arriving timw will be shown.
+![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20015650.jpg?raw=true)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 4. Book Now Button
+![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20015818.jpg?raw=true)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 5. Confirmation Message
+![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20015858.jpg?raw=true)
 
-### `npm run eject`
+### 6. Email
+![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20015957.jpg?raw=true)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 7. Track Booking
+All bookings from a particular email will be shown.
+![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20020225.jpg?raw=true)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 8. Admin Dashboard
+![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20020314.jpg?raw=true)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 9. Editing Cab-Details
+![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20020434.jpg?raw=true)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Following things are edited, shown below.
+* Sedan Cab-> Sedan Cab-v1.0
+* rate: ₹0.79-> ₹0.52
+* Time to Arrive: 6->4
 
-## Learn More
+![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20020521.jpg?raw=true)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 10. DataBase (MongoDb Atlas)
+![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20020716.jpg?raw=true)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 11. E-Mail Service
+![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20020757.jpg?raw=true)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 12. Deployment (Render)
+![Home](https://github.com/mehran236/cab-booking-system/blob/master/Screenshots/Screenshot%202023-04-03%20020859.jpg?raw=true)
