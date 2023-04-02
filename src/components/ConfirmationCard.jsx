@@ -34,7 +34,7 @@ export default function ConfirmationCard({ onCancel, source, destination, cab_fa
 
         console.log('form is:', form.current[4].value);
 
-        emailjs.sendForm('service_zsulqyv', 'template_7raoxuu', form.current, 'cWM6Fgb7hs57dT2NZ')
+        emailjs.sendForm('service_m168mdq', 'template_15em2r4', form.current, '1BeXJJv8dy4YduZmj')
             .then(async (result) => {
                 addBooking();
                 setCabBooked(true);
