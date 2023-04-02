@@ -9,7 +9,7 @@ const app = express();
 //     .then(() => console.log('Connected to database...'))
 //     .catch((err) => console.log('Database connection error...'));
 
-app.use(cors({ origin: 'https://cab-booking.onrender.com' }));
+app.use(cors({ origin: 'https://cab-booking2.onrender.com' }));
 app.use(express.json());
 
 const mainRouter = require('./routes/mainRouter');
