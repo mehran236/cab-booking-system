@@ -9,10 +9,12 @@ const app = express();
 //     .then(() => console.log('Connected to database...'))
 //     .catch((err) => console.log('Database connection error...'));
 
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: 'https://cab-booking.onrender.com' }));
 app.use(express.json());
 
 const mainRouter = require('./routes/mainRouter');
 app.use('/api', mainRouter);
 
-app.listen(5500, console.log('Listening on port 5500'));
+const PORT = process.env.PORT || 5500;
+
+app.listen(PORT, console.log('Listening on port 5500'));
