@@ -8,7 +8,7 @@ export default function AdminDashboard() {
 
     useEffect(() => {
         async function getCabs() {
-            const result = await axios.get('https://cab-system-api.onrender.com/api/cabs');
+            const result = await axios.get('https://cab-system-api-ni85.onrender.com/api/cabs');
             const data = result.data;
 
             console.log('data is', data);

@@ -15,7 +15,7 @@ function SearchCabsForm() {
 
         async function fetchLocations() {
             try {
-                const fetched_locations = await axios.get('https://cab-system-api.onrender.com/api/locations');
+                const fetched_locations = await axios.get('https://cab-system-api-ni85.onrender.com/api/locations');
                 console.log('locations', fetched_locations);
                 setLocations(fetched_locations.data);
 

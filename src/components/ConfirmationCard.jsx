@@ -22,7 +22,7 @@ export default function ConfirmationCard({ onCancel, source, destination, cab_fa
 
         console.log(booking_details);
 
-        const result = await axios.post('https://cab-system-api.onrender.com/api/booking', booking_details);
+        const result = await axios.post('https://cab-system-api-ni85.onrender.com/api/booking', booking_details);
 
         console.log('result of post', result);
 
