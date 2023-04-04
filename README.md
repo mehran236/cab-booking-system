@@ -15,11 +15,21 @@ This project is a cab booking web application built using React and Tailwind CSS
 
 ## Backend
 * Mongo-Db
+* Node.js
+* Express.js
 
 ## Deployed On:
 Render
 ## API Used
 EmailJs -> For sending emails to users.
+
+## Steps for Running on Local machine.
+* In the app.js file change the **app.use(cors({ origin: 'https://cab-booking2.onrender.com' }));** to **app.use(cors({ origin: 'http://localhost:3000' }));**
+* In every Frontend file change the link to **'http://localhost:5500'**
+* Now write `npm start` in the terminal to start the frontend.
+* Then `cd .\backend\`
+* Then `node app.js` to start the Backend.
+* Now you are ready to use the React app on the Localhost.
 
 # Screenshots:
 ### 1. Home Page
